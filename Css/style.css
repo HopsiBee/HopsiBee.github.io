@@ -312,6 +312,10 @@ Form{
     margin-top:5px
 }
 
+a{
+    text-decoration: none;
+}
+
 .FormRow{
     margin-top:50px;
 }
