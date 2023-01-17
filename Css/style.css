@@ -9,6 +9,11 @@ html{
     width: 100.99%;
 }
 
+.BackgroundImage{
+    width:100%;
+    height:250%;
+}
+
 .Header{
     width:100%;
     height:50px;
@@ -16,7 +21,7 @@ html{
 }
 
 .Buttons{
-    width:40%;
+    width:50%;
     margin: 0 auto;
     text-align:center;
     height:100px;
@@ -32,7 +37,6 @@ html{
 .MainPageButton{
     border: 3px solid lime;
 }
-
 
 .CharacterButton{
     border: 3px solid cyan;
@@ -146,6 +150,18 @@ h1,h2{
     width:100%;
 }
 
+.TopText{
+    margin-top:10%;
+    width:100%;
+}
+
+.TopText > h1{
+    width:33.5%;
+    margin:0 auto;
+    background-color: red;
+    border: 1px solid white;
+}
+
 .footer{
     width:101%;
     height:148px;
@@ -235,4 +251,67 @@ h1,h2{
     width:40%;
     margin-top:5%;
     text-align:center;
+}
+
+.ContactButton{
+    border: 3px solid purple;
+    width:35px;
+    height:35px;
+    width:119px;
+    font-size:20px;
+    position:relative;
+    top:5px;
+}
+
+.Form{
+    margin-top:110px;
+    width:35%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 444px;
+    background-color:grey;
+    text-align:center;
+}
+
+.SubmitButton{
+    height:62px;
+    width:254px;
+    border:1px solid black;
+    color:black;
+}
+
+.NameInput, .EmailInput{
+    border:2px solid black;
+    width:192px;
+    height:30px;
+}
+
+.NameInput{
+    margin-right:9px;
+}
+
+.TextArea{
+    height:200px;
+    width:70%;
+    margin-top:20px;
+    margin-bottom:20px;
+    border:2px solid black;
+}
+
+.Form > .Cont >  h2{
+    background-color: rgb(230,230,230);
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid black;
+    margin-top:5px
+}
+
+.FormRow{
+    margin-top:50px;
+}
+
+.Cont{
+    position:relative;
+    top:10px;
 }
