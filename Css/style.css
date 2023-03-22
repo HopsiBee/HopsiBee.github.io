@@ -95,8 +95,8 @@ background-color: #FFFFFF;
 }
 
 .dropdown-content a:hover{
-    color: #DF2935;
-    background-color: white;
+    color: white;
+    background-color: #DF2935;
 }
 
 .Character{
